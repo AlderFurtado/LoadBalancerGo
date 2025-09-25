@@ -20,7 +20,7 @@ func main() {
 		})
 	})
 
-	router.GET("/healtcheck", func(ctx *gin.Context) {
+	router.GET("/health", func(ctx *gin.Context) {
 		ctx.IndentedJSON(http.StatusOK, gin.H{
 			"result": "ok",
 		})

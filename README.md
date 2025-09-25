@@ -7,5 +7,5 @@ Study Application
 
 #### Run Project 
 ```docker
-docker-compose up --build
+docker-compose -f buildV2/docker-compose.yml up --build
 ```
